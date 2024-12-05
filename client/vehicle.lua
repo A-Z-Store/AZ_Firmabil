@@ -96,7 +96,7 @@ HandleCompanyCar = function()
     if not hasRequiredJob() then
         return lib.notify({
             title = 'Fejl',
-            description = "Du skal være ansat i Galaxy Nightclub for at spawne firma biler!",
+            description = "Du skal være ansat i Et firma for at spawne firma biler!",
             type = 'error'
         })
     end
